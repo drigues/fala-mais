@@ -1,45 +1,39 @@
-<!DOCTYPE html>
-%html(lang="en")
-    %head
-        %meta(charset="UTF-8")/
-        %meta(name="viewport" content="width=device-width, initial-scale=1.0")/
-        %title Fala +
-    %body.container-fluid#main-content
-        %header.mdc-top-app-bar
-            %div.mdc-top-app-bar__row
-                %section.mdc-top-app-bar__section.mdc-top-app-bar__section--align-start
-                    %button.material-icons.mdc-top-app-bar__navigation-icon.mdc-icon-button menu
-                    %span.mdc-top-app-bar__title Algo aqui
-                %section.mdc-top-app-bar__section.mdc-top-app-bar__section--align-end
-                    %button.material-icons.mdc-top-app-bar__action-item.mdc-icon-button favorite
-                    %button.material-icons.mdc-top-app-bar__action-item.mdc-icon-button search
-                    %button.material-icons.mdc-top-app-bar__action-item.mdc-icon-button more_vert
-        %div#um.bloco.a
-            %div.centrado
-                %h1 FALA MAIS 1
-                %p Troque mensangens em salas exclusivas
-                %a.btn.btn-primary{ :href => "#dois", :title => "Parte 2" } Vamos para parte 2
-                %h2 Potential improvements
-                %pAs with anything, there’s always something we can do to take things to the next level. In this case, I think there are three areas where this approach could be improved.
-                %h2 Responsiveness
-                %p The approach I’ve outlined uses a fixed size for the chart dimensions, which is exactly what we don’t want in a responsive design. We can work around this limitation if we can run JavaScript on the client. Instead of hard-coding our chart size, we can set a CSS custom property (remember our --widget-size property?), base all of the calculations on it, and update that property when the container or window either initially displays or resizes using some form of a container query or a window resize listener.
-        %div#dois.bloco.b
-            %div.centrado
-                %h1 FALA MAIS PARTE 2
-                %p Troque mensangens em salas exclusivas
-                %a.btn.btn-primary{ :href => "#tres", :title => "Parte 3" } Vamos para parte 3
-        %div#tres.bloco.c
-            %div.centrado
-                %h1 FALA MAIS PARTE 3
-                %p Troque mensangens em salas exclusivas
-                %a.btn.btn-primary{ :href => "#quatro", :title => "Parte 5" } Vamos para parte 4
-        %div#quatro.bloco.d
-            %div.centrado
-                %h1 FALA MAIS PARTE 4
-                %p Troque mensangens em salas exclusivas
-                %a.btn.btn-primary{ :href => "#cinco", :title => "Parte 5" } Vamos para parte 5
-        %div#cinco.bloco.e
-            %div.centrado
-                %h1 FALA MAIS PARTE 5
-                %p Troque mensangens em salas exclusivas
-                %a.btn.btn-primary{ :href => "#um", :title => "Parte 1" } Voltar para parte 1
+%div.container-fluid#main-content
+    %header.mdc-top-app-bar
+        %div.mdc-top-app-bar__row
+            %section.mdc-top-app-bar__section.mdc-top-app-bar__section--align-start
+                %button.material-icons.mdc-top-app-bar__navigation-icon.mdc-icon-button menu
+                %span.mdc-top-app-bar__title Algo aqui
+            %section.mdc-top-app-bar__section.mdc-top-app-bar__section--align-end
+                %button.material-icons.mdc-top-app-bar__action-item.mdc-icon-button favorite
+                %button.material-icons.mdc-top-app-bar__action-item.mdc-icon-button search
+                %button.material-icons.mdc-top-app-bar__action-item.mdc-icon-button more_vert
+    %div#um.bloco.a
+        %div.centrado
+            %h1 FALA MAIS 1
+            %p Troque mensangens em salas exclusivas
+            %a.btn.btn-primary{ :href => "#dois", :title => "Parte 2" } Vamos para parte 2
+            %h2 Potential improvements
+            %pAs with anything, there’s always something we can do to take things to the next level. In this case, I think there are three areas where this approach could be improved.
+            %h2 Responsiveness
+            %p The approach I’ve outlined uses a fixed size for the chart dimensions, which is exactly what we don’t want in a responsive design. We can work around this limitation if we can run JavaScript on the client. Instead of hard-coding our chart size, we can set a CSS custom property (remember our --widget-size property?), base all of the calculations on it, and update that property when the container or window either initially displays or resizes using some form of a container query or a window resize listener.
+    %div#dois.bloco.b
+        %div.centrado
+            %h1 FALA MAIS PARTE 2
+            %p Troque mensangens em salas exclusivas
+            %a.btn.btn-primary{ :href => "#tres", :title => "Parte 3" } Vamos para parte 3
+    %div#tres.bloco.c
+        %div.centrado
+            %h1 FALA MAIS PARTE 3
+            %p Troque mensangens em salas exclusivas
+            %a.btn.btn-primary{ :href => "#quatro", :title => "Parte 5" } Vamos para parte 4
+    %div#quatro.bloco.d
+        %div.centrado
+            %h1 FALA MAIS PARTE 4
+            %p Troque mensangens em salas exclusivas
+            %a.btn.btn-primary{ :href => "#cinco", :title => "Parte 5" } Vamos para parte 5
+    %div#cinco.bloco.e
+        %div.centrado
+            %h1 FALA MAIS PARTE 5
+            %p Troque mensangens em salas exclusivas
+            %a.btn.btn-primary{ :href => "#um", :title => "Parte 1" } Voltar para parte 1
