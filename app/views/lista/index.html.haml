@@ -14,7 +14,18 @@
                     %button.material-icons.mdc-top-app-bar__action-item.mdc-icon-button favorite
                     %button.material-icons.mdc-top-app-bar__action-item.mdc-icon-button search
                     %button.material-icons.mdc-top-app-bar__action-item.mdc-icon-button more_vert
-        %div.centrado
-            %h1 FALA MAIS
-            %p Troque mensangens em salas exclusivas
-            %button.btn.btn-primary Crie uma sala 
+        %div#um.bloco.a
+            %div.centrado
+                %h1 FALA MAIS 1
+                %p Troque mensangens em salas exclusivas
+                %a.btn.btn-primary{ :href => "#dois", :title => "Parte 2" } Vamos para parte 2
+        %div#dois.bloco.b
+            %div.centrado
+                %h1 FALA MAIS PARTE 2
+                %p Troque mensangens em salas exclusivas
+                %a.btn.btn-primary{ :href => "#tres", :title => "Parte 2" } Vamos para parte 3
+        %div#tres.bloco.c
+            %div.centrado
+                %h1 FALA MAIS PARTE 3
+                %p Troque mensangens em salas exclusivas
+                %a.btn.btn-primary{ :href => "#um", :title => "Parte 1" } Voltar para parte 1

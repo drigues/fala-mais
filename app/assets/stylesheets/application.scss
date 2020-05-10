@@ -16,6 +16,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+html, body {
+    height: 100%;
+}
+
 #main-content{
     background: #34495e;
 
@@ -41,10 +45,30 @@ header{
     display: none;
 }
 
+.bloco{
+    width: 100%;
+    &.a{ background: tomato;}
+    &.b{ background: darkmagenta;}
+    &.c{ background: limegreen;}
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .centrado {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    /* bring your own prefixes */
-    transform: translate(-50%, -50%);
-  }
+    width: 50%;
+    margin: auto;
+}
+
+
+
+
+/*kill bootstratp*/
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+h1{
+    display: inline;
+}
