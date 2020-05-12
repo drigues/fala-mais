@@ -55,13 +55,6 @@ header{
     &.d{ 
         background: url(praia.png) center center no-repeat;
         background-size: auto 100%;
-
-        -webkit-transition-property: background-size;
-        -webkit-transition-duration: 4s;
-        -webkit-transition-timing-function: ease;
-        transition-property: background-size;
-        transition-duration: 4s;
-        transition-timing-function: ease;
     }
     &.e{ 
         background: url(https://www.junction.nl/beheer/wp-content/uploads/2019/03/Create-3-Laptop.jpg) top center no-repeat;

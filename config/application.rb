@@ -17,3 +17,6 @@ module MandaOi
     # the framework and any gems in your application.
   end
 end
+
+config.serve_static_assets = true  # deprecated
+config.serve_static_files = true   # Ok
